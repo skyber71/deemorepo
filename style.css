@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
+    
 	box-sizing: border-box;
 }
 
 body {
+    padding: 0;
+    margin: 0;
 	background-color: #020c39;
 	color: #fff;
 	display: flex;
@@ -12,13 +15,18 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
-	min-height: 100vh;
+	/* padding: 10px; */
+	/* min-height: 100vh; */
+    /* max-height: 100vh; */
+}
+nav{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(43, 0, 255);
+    margin-bottom: 40px;
 }
 
-p {
-	margin: 5px 0;
-}
+
 
 h2 {
 	margin: 10px 0 20px;
